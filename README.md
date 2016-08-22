@@ -1,24 +1,16 @@
---------------
-Klotski Solver
---------------
+#Klotski Solver
 
-*--------------------------------------------------------------*
 A command-line solver for the Klotski game written in Python 3.4
-*--------------------------------------------------------------*
 
 Copyright 2014, Mingjing Zhang
 Simon Fraser University
 
-+------------+
-How it works:
-+------------+
+##How it works:
 Run Main.py.
 It reads the board specified in 'DefaultLayout.txt',
 then output the steps in an easy-to-read formt
 
-+--------------------------------+
-How to write your own layout file:
-+--------------------------------+
+##Write your own layout file:
 The layout file contains the coordinate of each block. It is organized as follows:
 -- BEGINNING OF FILE --
 TypeLetter
@@ -58,10 +50,9 @@ E 1 1 E
 E E 1 1
 E E E E
 
-+--+
-FAQ:
-+--+
-Why the 'HR' prefix for all class files?
+
+##FAQ:
+* Why the 'HR' prefix for all class files?
 
   HR is the acronym of the Chinese name of Klotski -- Hua-Rong Dao (The Path of Hua-Rong).
   In the Chinese version, the game reenacts a classical story where the warlord, Cao Cao,
@@ -69,9 +60,8 @@ Why the 'HR' prefix for all class files?
   ambushed by the enemy general Guan Yu. Each piece is assigned with a name of a historical
   figure, with the 2x2 piece being Cao Cao, and the horizontal one Guan Yu.
 
-+--------------+
-Default Output:
-+--------------+
+##Default Output:
+```language
 Solution found in 5.627 secs. 11975 nodes checked
 
 Solution Report:
@@ -225,6 +215,6 @@ Step 81 to 81:
 ----------------------------------------
 Total steps: 81
 ============ END OF REPORT =============
-
+```
 
 
